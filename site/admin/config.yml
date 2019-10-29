@@ -9,6 +9,6 @@ collections:
     files:
       - label: "Homepage"
         name: "homepage"
-        file: "pages/index.json"
+        file: "site/pages/index.json"
         fields:
           - {label: Header, name: header, widget: string}

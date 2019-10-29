@@ -11,5 +11,6 @@ npm install
 # How to get started
 
 ```shell
-npx @11ty/eleventy --input=pages  --serve
+npm run build
+npm run dev
 ```

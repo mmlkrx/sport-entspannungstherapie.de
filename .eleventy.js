@@ -1,9 +1,9 @@
 module.exports = function(config) {
-  config.addPassthroughCopy("images"); // pass images folder right through to output folder
-  config.addPassthroughCopy("admin"); // pass admin folder right through to output folder
+  config.addPassthroughCopy("site/images"); // pass images folder right through to output folder
+  config.addPassthroughCopy("site/admin"); // pass admin folder right through to output folder
   return {
     dir: {
-      input: ".",
+      input: "site",
       output: "_site"
     },
     templateFormats: ["njk"]
