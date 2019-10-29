@@ -4,7 +4,7 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "images"
+media_folder: "site/images"
 
 collections:
   - label: "Pages"
@@ -12,6 +12,6 @@ collections:
     files:
       - label: "Homepage"
         name: "homepage"
-        file: "index.json"
+        file: "site/index.json"
         fields:
           - {label: Header, name: header, widget: string}
