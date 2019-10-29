@@ -1,5 +1,8 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
 
 media_folder: "images"
 
@@ -9,6 +12,6 @@ collections:
     files:
       - label: "Homepage"
         name: "homepage"
-        file: "site/pages/index.json"
+        file: "index.json"
         fields:
           - {label: Header, name: header, widget: string}
