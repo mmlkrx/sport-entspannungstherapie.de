@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master
+  squash_merges: true # BETA FEATURE: https://www.netlifycms.org/docs/beta-features/#squash-merge-github-pull-requests
 
 publish_mode: editorial_workflow
 
