@@ -15,5 +15,6 @@ collections:
         name: "homepage"
         file: "site/index.json"
         fields:
-          - {label: Header, name: header, widget: string}
+          - {label: "Hero Title", name: heroTitle, widget: string}
+          - {label: "Hero Subtitle", name: heroSubtitle, widget: string}
           - {label: "Booking Button", name: btnBookingTitle, widget: string}
