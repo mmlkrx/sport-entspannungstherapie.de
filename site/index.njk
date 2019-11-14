@@ -9,19 +9,19 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body class="text-xl font-body">
-    <header class="fixed top-0 z-50 w-full bg-white shadow">
-      <div class="flex items-center justify-between px-3 py-4">
-        <div id="menuBtn">
+    <header class="fixed top-0 z-50 w-full bg-white shadow sm:flex sm:justify-between sm:flex-row-reverse sm:items-center sm:px-6 sm:py-6">
+      <div class="flex items-center justify-between px-3 py-4 sm:p-0">
+        <div id="menuBtn" class="sm:hidden">
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
         </div>
         <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-orange-500 hover:shadow-lg">
           <a href="#">{{ btnBookingTitle }}</a>
         </button>
       </div>
-      <nav id="navMenu" class="hidden px-4 pb-4">
+      <nav id="navMenu" class="hidden px-4 pb-4 sm:flex sm:p-0">
         <a href="#" class="block py-1 px-2 hover:bg-gray-100 rounded">Massagen</a>
-        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded">Workshops</a>
-        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded">Kontakt</a>
+        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Workshops</a>
+        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Kontakt</a>
       </nav>
     </header>
     <section class="mt-32 mb-16 text-center flex items-center bg-cover bg-center" style="background-image: url('/images/hero_homepage.jpg')">
