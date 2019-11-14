@@ -9,15 +9,22 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body class="text-xl font-body">
-    <header class="sticky top-0 z-50 w-full flex items-center justify-between px-3 py-4 bg-white shadow">
-      <div>
-        <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+    <header class="fixed top-0 z-50 w-full bg-white shadow">
+      <div class="flex items-center justify-between px-3 py-4">
+        <div id="menuBtn">
+          <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+        </div>
+        <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-orange-500 hover:shadow-lg">
+          <a href="#">{{ btnBookingTitle }}</a>
+        </button>
       </div>
-      <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-orange-500 hover:shadow-lg">
-        <a href="#">{{ btnBookingTitle }}</a>
-      </button>
+      <nav id="navMenu" class="hidden px-4 pb-4">
+        <a href="#" class="block py-1 px-2 hover:bg-gray-100 rounded">Massagen</a>
+        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded">Workshops</a>
+        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded">Kontakt</a>
+      </nav>
     </header>
-    <section class="my-16 text-center flex items-center bg-cover bg-center" style="background-image: url('/images/hero_homepage.jpg')">
+    <section class="mt-32 mb-16 text-center flex items-center bg-cover bg-center" style="background-image: url('/images/hero_homepage.jpg')">
       <div class="mx-6 py-4 bg-white opacity-75 border-2 border-gray-200">
         <h1 class="text-4xl mb-6">{{ heroTitle }}</h1>
         <p>{{ heroSubtitle }}</p>
@@ -29,4 +36,5 @@
       <p>Geographers have a tradition of being curious explorers of both places and ideas. Where does that highway go? Who lives in this big house and why? How did we arrive at where we are? When are we going to learn to live together? Can you really consume more and more and does it.</p>
     </div>
   </body>
+  <script src="/js/dropdown.js"></script>
 </html>
