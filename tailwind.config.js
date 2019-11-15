@@ -4,6 +4,9 @@ module.exports = {
       fontFamily: {
         'body': ['Spinnaker', 'sans-serif']
       },
+      height: {
+        '80/100': '80%'
+      }
     }
   }
 }
