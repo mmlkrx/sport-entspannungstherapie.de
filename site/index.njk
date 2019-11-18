@@ -30,17 +30,15 @@
         <p>{{ heroSubtitle }}</p>
       </div>
     </section>
-    {%- if collections.announcement | selectattr("show") -%}
+    {%- if collections.visibleAnnouncements | length > 0 -%}
       <section class="sm:px-6">
         <div class="px-6 pt-8 bg-red-200 sm:rounded">
           <h2 class="inline-block mb-8 pb-2 border-b-2 border-red-800 text-2xl text-red-900">Aktuelle Ankündigungen</h2>
           <ul class="overflow-auto">
-          {%- for announcement in collections.announcement -%}
-            {%- if announcement.data.show -%}
-              <li class="mb-8">
-                {{ announcement.templateContent | safe }}
-              </li>
-            {%- endif -%}
+          {%- for announcement in collections.visibleAnnouncements -%}
+            <li class="mb-8">
+              {{ announcement.templateContent | safe }}
+            </li>
           {%- endfor -%}
           </ul>
         </div>

@@ -27,6 +27,5 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, {{slug}} is a url-safe version of the title field (or identifier field) for the file (name in our case)
     fields: # Since we're using markdown files, files will be saved with data frontmatter followed by an unparsed body text (edited using a body field)
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Tags", name: "tags", widget: "select", options: ["announcement"] }
       - { label: "Anzeigen?", name: "show", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }

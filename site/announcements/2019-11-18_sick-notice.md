@@ -1,6 +1,5 @@
 ---
 name: Sick Notice
-tags: announcement
 show: false
 ---
 
