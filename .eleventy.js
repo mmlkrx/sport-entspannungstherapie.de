@@ -7,6 +7,6 @@ module.exports = function(config) {
       input: "site",
       output: "_site"
     },
-    templateFormats: ["njk"]
+    templateFormats: ["njk", "md"]
   };
 };

@@ -30,11 +30,22 @@
         <p>{{ heroSubtitle }}</p>
       </div>
     </section>
-    <div class="px-6">
-      <p>Geography is about the planet we inhabit, from the water that gives it life to its extensive biodiversity. But crucially it is about the energy that courses through its myriad environmental systems. Without an understanding of energy you cannot understand geography. This is the energy that builds mountains and then destroys them. It is the energy that flows through our atmosphere daily, bringing us our weather and, in the longer term, the energy fluctuations that alter our climate. It is the energy that gives us the food to sustain ourselves. It is the energy, stored in fossil fuels and formed from the decomposition of prehistoric plants and animals, that has enabled us to put the spark of electricity into our lives. Geography helps explain how all of this energy has transformed who we are and how we affect our environment and how our environment affects us.</p>
-
-      <p>Geographers have a tradition of being curious explorers of both places and ideas. Where does that highway go? Who lives in this big house and why? How did we arrive at where we are? When are we going to learn to live together? Can you really consume more and more and does it.</p>
-    </div>
+    {%- if collections.announcement | selectattr("show") -%}
+      <section class="sm:px-6">
+        <div class="px-6 pt-8 bg-red-200 sm:rounded">
+          <h2 class="inline-block mb-8 pb-2 border-b-2 border-red-800 text-2xl text-red-900">Aktuelle Ankündigungen</h2>
+          <ul class="overflow-auto">
+          {%- for announcement in collections.announcement -%}
+            {%- if announcement.data.show -%}
+              <li class="mb-8">
+                {{ announcement.templateContent | safe }}
+              </li>
+            {%- endif -%}
+          {%- endfor -%}
+          </ul>
+        </div>
+      </section>
+    {%- endif -%}
   </body>
   <script src="/js/dropdown.js"></script>
 </html>
