@@ -22,7 +22,7 @@ collections:
     label_singular: "Ankündigung"
     name: "announcement" # Used in routes, e.g., /admin/collections/blog
     identifier_field: "name" # Serves as an entry's title when viewing a list of entries, and is used in slug creation. Defaults to title
-    folder: "announcements" # The path to the folder where the documents are stored
+    folder: "site/announcements" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, {{slug}} is a url-safe version of the title field (or identifier field) for the file (name in our case)
     fields: # Since we're using markdown files, files will be saved with data frontmatter followed by an unparsed body text (edited using a body field)
