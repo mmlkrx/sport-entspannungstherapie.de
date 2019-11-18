@@ -8,7 +8,7 @@ publish_mode: editorial_workflow
 media_folder: "site/images"
 
 collections:
-  - label: "Pages"
+  - label: "Seiten"
     name: "pages"
     files:
       - label: "Homepage"
