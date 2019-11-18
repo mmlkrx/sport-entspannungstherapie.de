@@ -1,5 +1,5 @@
 ---
-name: Sick Notice
+name: Winter Ansteckungsgefahr
 show: false
 ---
 
