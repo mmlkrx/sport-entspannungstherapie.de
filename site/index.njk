@@ -9,23 +9,27 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body class="text-xl font-body antialiased text-gray-900">
-    <header class="fixed top-0 z-50 w-full bg-white shadow sm:flex sm:justify-between sm:flex-row-reverse sm:items-center sm:px-6 sm:py-6">
-      <div class="flex items-center justify-between px-3 py-4 sm:p-0">
-        <div id="menuBtn" class="sm:hidden">
-          <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
+    <header class="fixed top-0 z-50 w-full bg-white shadow sm:px-6 sm:py-6">
+      <div class="sm:flex sm:flex-row-reverse sm:justify-between sm:items-center sm:max-w-6xl sm:mx-auto">
+        <div class="flex flex-grow items-center justify-between px-3 py-4 sm:p-0 sm:flex-grow-0">
+          <div id="menuBtn" class="sm:hidden">
+            <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+            </svg>
+          </div>
+          <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-red-400 hover:shadow-lg">
+            <a href="#">{{ btnBookingTitle }}</a>
+          </button>
         </div>
-        <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-red-400 hover:shadow-lg">
-          <a href="#">{{ btnBookingTitle }}</a>
-        </button>
+        <nav id="navMenu" class="hidden px-4 pb-4 sm:flex sm:flex-grow sm:p-0">
+          <a href="#" class="block py-1 px-2 hover:bg-gray-100 rounded">Massagen</a>
+          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Workshops</a>
+          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Kontakt</a>
+        </nav>
       </div>
-      <nav id="navMenu" class="hidden px-4 pb-4 sm:flex sm:p-0">
-        <a href="#" class="block py-1 px-2 hover:bg-gray-100 rounded">Massagen</a>
-        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Workshops</a>
-        <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Kontakt</a>
-      </nav>
     </header>
-    <section class="mt-32 mb-16 h-80/100 text-center flex items-center bg-cover bg-center sm:mb-12 sm:text-left" style="background-image: url('/images/hero_homepage.jpg')">
-      <div class="mx-6 p-4 bg-white opacity-75 border-2 border-gray-200 sm:w-4/6 sm:py-8 sm:border-none">
+    <section class="mt-32 mb-16 h-80/100 text-center flex items-center justify-center bg-cover bg-center sm:mb-12 sm:text-left" style="background-image: url('/images/hero_homepage.jpg')">
+      <div class="mx-6 p-4 max-w-6xl bg-white opacity-75 border-2 border-gray-200 sm:w-4/6 sm:py-8 sm:border-none">
         <h1 class="text-4xl mb-6 sm:w-2/3">{{ heroTitle }}</h1>
         <p>{{ heroSubtitle }}</p>
       </div>
