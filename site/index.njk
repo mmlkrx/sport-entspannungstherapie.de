@@ -35,16 +35,18 @@
       </div>
     </section>
     {%- if collections.visibleAnnouncements | length > 0 -%}
-      <section class="sm:px-6">
-        <div class="px-6 pt-8 bg-red-200 sm:rounded">
-          <h2 class="inline-block mb-8 pb-2 border-b-2 border-red-800 text-2xl text-red-900">Aktuelle Ankündigungen</h2>
-          <ul class="overflow-auto">
-          {%- for announcement in collections.visibleAnnouncements -%}
-            <li class="mb-8">
-              {{ announcement.templateContent | safe }}
-            </li>
-          {%- endfor -%}
-          </ul>
+      <section class="mb-16 px-2">
+        <div class="border-dashed border-4 border-red-500 max-w-5xl mx-auto rounded">
+          <div class="px-6 pt-8 m-2 bg-red-100 rounded">
+            <h2 class="inline-block mb-8 pb-2 border-b-2 border-red-800 text-2xl text-red-900">Aktuelle Ankündigungen</h2>
+            <ul class="overflow-auto">
+            {%- for announcement in collections.visibleAnnouncements -%}
+              <li class="mb-8">
+                {{ announcement.templateContent | safe }}
+              </li>
+            {%- endfor -%}
+            </ul>
+          </div>
         </div>
       </section>
     {%- endif -%}
