@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This fixes small pixel gap on iOS Safari */
+/* https://stackoverflow.com/questions/44170229/how-to-prevent-half-pixel-svg-shift-on-high-pixel-ratio-devices-retina */
+
+.svg-waves {
+  transform: scale(1);
+}
