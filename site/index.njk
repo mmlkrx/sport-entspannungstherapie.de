@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="/css/styles.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
-  <body class="text-xl font-body">
+  <body class="text-xl font-body antialiased text-gray-900">
     <header class="fixed top-0 z-50 w-full bg-white shadow sm:flex sm:justify-between sm:flex-row-reverse sm:items-center sm:px-6 sm:py-6">
       <div class="flex items-center justify-between px-3 py-4 sm:p-0">
         <div id="menuBtn" class="sm:hidden">
           <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path class="heroicon-ui" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/></svg>
         </div>
-        <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-orange-500 hover:shadow-lg">
+        <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-red-400 hover:shadow-lg">
           <a href="#">{{ btnBookingTitle }}</a>
         </button>
       </div>
@@ -44,6 +44,69 @@
         </div>
       </section>
     {%- endif -%}
+    <section>
+      <svg class="fill-current text-red-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+        <path d="M0 96l80-5.3c80-5.7 240-15.7 400 0C640 107 800 149 960 149.3c160-.3 320-42.3 400-64l80-21.3v256H0z"/>
+      </svg>
+    </section>
+    <section class="px-4 bg-red-200">
+      <h2 class="pt-6 pb-10 text-3xl text-center sm:mb-16 sm:text-5xl">Unsere Services</h2>
+      <div class="max-w-5xl mx-auto flex flex-wrap justify-between">
+        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+          <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_medical.jpg')">
+            <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Medizinische Massage</h2>
+          </div>
+          <div class="px-2 flex-1">
+            <p class="px-2 pt-8 leading-snug">Die <span class="font-semibold">Medizinische Massage</span> dient als Vorsorgemaßnahme zur Verhinderung von Krankheiten, Leiden und Körperschaden.</p>
+            <a class="px-2 my-3 mb-6 inline-block text-orange-600 rounded hover:bg-gray-100" href="#">
+              Mehr erfahren
+              <svg class="w-4 inline-block fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M18.59 13H3a1 1 0 010-2h15.59l-5.3-5.3a1 1 0 111.42-1.4l7 7a1 1 0 010 1.4l-7 7a1 1 0 01-1.42-1.4l5.3-5.3z"/>
+              </svg>
+            </a>
+          </div>
+          <div class="py-6 flex justify-center bg-red-100">
+            <a class="p-3 w-40 block text-center bg-red-400 rounded hover:shadow-lg" href="#">Buchen</a>
+          </div>
+        </div>
+
+        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+          <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_classic.jpg')">
+            <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Klassische Massage</h2>
+          </div>
+          <div class="px-2 flex-1">
+            <p class="px-2 pt-8 leading-snug">Das Ziel einer <span class="font-semibold">klassischen Massage</span> ist, dass Sie sich rundum wohlfühlen und für einen Moment den Alltag loslassen können.</p>
+            <a class="px-2 my-3 mb-6 inline-block text-orange-600 rounded hover:bg-gray-100" href="#">
+              Mehr erfahren
+              <svg class="w-4 inline-block fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M18.59 13H3a1 1 0 010-2h15.59l-5.3-5.3a1 1 0 111.42-1.4l7 7a1 1 0 010 1.4l-7 7a1 1 0 01-1.42-1.4l5.3-5.3z"/>
+              </svg>
+            </a>
+          </div>
+          <div class="py-6 flex justify-center bg-red-100">
+            <a class="p-3 w-40 block text-center bg-red-400 rounded hover:shadow-lg" href="#">Buchen</a>
+          </div>
+        </div>
+
+        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+          <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_foot.jpg')">
+            <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Fußreflexzonen Massage</h2>
+          </div>
+          <div class="px-2 flex-1">
+            <p class="px-2 pt-8 leading-snug">Die <span class="font-semibold">Fußreflexzonen Massage</span> kann Schmerzen lindern und wirkt beruhigend. Sie regt die Durchblutung des Fußes an, baut Stress ab und kräftigt die körperliche Verfassung.</p>
+            <a class="px-2 my-3 mb-6 inline-block text-orange-600 rounded hover:bg-gray-100" href="#">
+              Mehr erfahren
+              <svg class="w-4 inline-block fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M18.59 13H3a1 1 0 010-2h15.59l-5.3-5.3a1 1 0 111.42-1.4l7 7a1 1 0 010 1.4l-7 7a1 1 0 01-1.42-1.4l5.3-5.3z"/>
+              </svg>
+            </a>
+          </div>
+          <div class="py-6 flex justify-center bg-red-100">
+            <a class="p-3 w-40 block text-center bg-red-400 rounded hover:shadow-lg" href="#">Buchen</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
   <script src="/js/dropdown.js"></script>
 </html>
