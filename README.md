@@ -11,6 +11,6 @@ npm install
 # How to get started
 
 ```shell
-npm run dev:build
+npm run build:dev
 npm run dev
 ```

@@ -2,8 +2,8 @@
   "name": "sport-entspannungstherapie.de",
   "version": "0.1.0",
   "scripts": {
-    "dev:build": "postcss site/css/styles.css -o _site/css/styles.css",
-    "prod:build": "NODE_ENV=production postcss site/css/styles.css -o _site/css/styles.css && npx @11ty/eleventy",
+    "build:dev": "postcss site/css/styles.css -o _site/css/styles.css",
+    "build:prod": "NODE_ENV=production postcss site/css/styles.css -o _site/css/styles.css && npx @11ty/eleventy",
     "dev": "npx @11ty/eleventy  --serve"
   },
   "devDependencies": {
