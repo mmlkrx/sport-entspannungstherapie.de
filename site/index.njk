@@ -9,10 +9,10 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body class="text-xl font-body antialiased text-gray-900">
-    <header class="fixed top-0 z-50 w-full bg-white shadow sm:px-6 sm:py-6">
-      <div class="sm:flex sm:flex-row-reverse sm:justify-between sm:items-center sm:max-w-6xl sm:mx-auto">
-        <div class="flex flex-grow items-center justify-between px-3 py-4 sm:p-0 sm:flex-grow-0">
-          <div id="menuBtn" class="sm:hidden">
+    <header class="fixed top-0 z-50 w-full bg-white shadow md:px-6 md:py-6">
+      <div class="md:flex md:flex-row-reverse md:justify-between md:items-center md:max-w-6xl md:mx-auto">
+        <div class="flex flex-grow items-center justify-between px-3 py-4 md:p-0 md:flex-grow-0">
+          <div id="menuBtn" class="md:hidden">
             <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
             </svg>
@@ -21,16 +21,16 @@
             <a href="#">{{ btnBookingTitle }}</a>
           </button>
         </div>
-        <nav id="navMenu" class="hidden px-4 pb-4 sm:flex sm:flex-grow sm:p-0">
+        <nav id="navMenu" class="hidden px-4 pb-4 md:flex md:flex-grow md:p-0">
           <a href="#" class="block py-1 px-2 hover:bg-gray-100 rounded">Massagen</a>
-          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Workshops</a>
-          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded sm:mt-0 sm:ml-2">Kontakt</a>
+          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded md:mt-0 md:ml-2">Workshops</a>
+          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded md:mt-0 md:ml-2">Kontakt</a>
         </nav>
       </div>
     </header>
-    <section class="mt-32 mb-16 h-80/100 text-center flex items-center justify-center bg-cover bg-center sm:mb-12 sm:text-left" style="background-image: url('/images/hero_homepage.jpg')">
-      <div class="mx-6 p-4 max-w-6xl bg-white opacity-75 border-2 border-gray-200 sm:w-4/6 sm:py-8 sm:border-none">
-        <h1 class="text-4xl mb-6 sm:w-2/3">{{ heroTitle }}</h1>
+    <section class="mt-32 mb-16 h-80/100 text-center flex items-center justify-center bg-cover bg-center md:mb-12 md:text-left" style="background-image: url('/images/hero_homepage.jpg')">
+      <div class="mx-6 p-4 max-w-6xl bg-white opacity-75 border-2 border-gray-200 md:w-4/6 md:py-8 md:border-none">
+        <h1 class="text-4xl mb-6 md:w-2/3">{{ heroTitle }}</h1>
         <p>{{ heroSubtitle }}</p>
       </div>
     </section>
@@ -54,10 +54,10 @@
       <path d="M0 96l80-5.3c80-5.7 240-15.7 400 0C640 107 800 149 960 149.3c160-.3 320-42.3 400-64l80-21.3v256H0z"/>
     </svg>
     <section class="px-4 bg-red-200">
-      <h2 class="pt-6 pb-10 text-3xl text-center sm:mb-16 sm:text-5xl">Unsere Services</h2>
-      <div class="max-w-5xl mx-auto flex flex-wrap justify-between">
+      <h2 class="pt-6 pb-10 text-3xl text-center md:mb-16 md:text-5xl">Unsere Services</h2>
+      <div class="max-w-6xl mx-auto flex flex-wrap justify-around">
 
-        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="mx-4 mb-24 flex flex-col max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_medical.jpg')">
             <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Medizinische Massage</h2>
           </div>
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="mx-4 mb-24 flex flex-col max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_classic.jpg')">
             <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Klassische Massage</h2>
           </div>
@@ -93,7 +93,7 @@
           </div>
         </div>
 
-        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="mx-4 mb-24 flex flex-col max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_foot.jpg')">
             <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Fußreflexzonen Massage</h2>
           </div>
@@ -111,7 +111,7 @@
           </div>
         </div>
 
-        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="mx-4 mb-24 flex flex-col max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_hot_stone.jpg')">
             <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Hot Stone Massage</h2>
           </div>
@@ -129,7 +129,7 @@
           </div>
         </div>
 
-        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="mx-4 mb-24 flex flex-col max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_shoulder.jpg')">
             <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl">Schulter- und Nackenmassage</h2>
           </div>
@@ -147,7 +147,7 @@
           </div>
         </div>
 
-        <div class="mb-24 flex flex-col sm:max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="mx-4 mb-24 flex flex-col max-w-xs bg-white shadow-lg rounded-lg overflow-hidden">
           <div class="px-4 h-64 text-center flex items-center justify-center bg-cover bg-left" style="background-image: url('/images/massage_chair.jpg')">
             <h2 class="px-2 py-5 leading-snug bg-white opacity-75 text-3xl truncate">Stuhlmassage</h2>
           </div>
@@ -174,8 +174,8 @@
       <path d="M0 192h120c120 0 360 0 600 21.3 240 21.7 480 63.7 600 85.4l120 21.3V0H0z"/>
     </svg>
     <section>
-      <h2 class="pt-6 pb-10 text-3xl text-center sm:mb-16 sm:text-5xl">Unsere Philosophie</h2>
-      <div class="px-4 max-w-3xl mx-auto">
+      <h2 class="pt-6 pb-10 text-3xl text-center md:mb-16 md:text-5xl">Unsere Philosophie</h2>
+      <div class="px-6 max-w-3xl mx-auto">
         <p class="mb-8">Die Sport- und Entspannungstherapie in Berlin-Friedrichshain hat zum Ziel, Sie mit den Möglichkeiten von Heilkunde, Sportheilkunde, Entspannung und Osteopathie vertraut zu machen, um Schmerz oder Missempfindungen gezielt zu lindern.</p>
         <p class="mb-8">Besonderen Wert legen wir auf ganzheitliche Betrachtung.</p>
         <p class="mb-8">Hierfür bieten wir Ihnen ein weites Spektrum an funktionellen Massagen, wie z.B. medizinisch manuelle Massagen, Schulter-Nackenmassage, Dorn-Breuss, Fußreflexzonenmassage, ThaiYoga/ Shiatsu-Massage, Triggerpunktmassage und Schröpfen, jeweils unter Berücksichtigung der Osteopathie.</p>
@@ -183,41 +183,41 @@
       </div>
     </section>
     <footer class="mt-24 py-16 w-full bg-red-100 font-mono text-sm">
-      <div class="w-64 sm:w-auto sm:max-w-2xl mx-auto">
-        <h2 class="py-4 text-base">Öffnungszeiten</h2>
-      </div>
-      <div class="max-w-2xl mx-auto flex justify-center sm:justify-between flex-wrap">
-        <ol class="w-64 sm:w-5/12">
-          <li class="flex justify-between items-center">
-            <div><span class="text-green-500">&#9679;</span> Montag</div>
-            <div><time>10:00</time> - <time>16:00</time></div>
-          </li>
-          <li class="flex justify-between items-center">
-            <div><span class="text-green-500">&#9679;</span> Dienstag</div>
-            <div><time>09:00</time> - <time>22:00</time></div>
-          </li>
-          <li class="flex justify-between items-center">
-            <div><span class="text-green-500">&#9679;</span> Mittwoch</div>
-            <div><time>08:00</time> - <time>15:00</time></div>
-          </li>
-          <li class="flex justify-between items-center">
-            <div><span class="text-green-500">&#9679;</span> Donnerstag</div>
-            <div><time>08:00</time> - <time>15:00</time></div>
-          </li>
-          <li class="flex justify-between items-center">
-            <div><span class="text-green-500">&#9679;</span> Freitag</div>
-            <div><time>08:00</time> - <time>20:00</time></div>
-          </li>
-          <li class="flex justify-between items-center">
-            <div><span class="text-green-500">&#9679;</span> Samstag</div>
-            <div><time>10:00</time> - <time>14:00</time></div>
-          </li>
-          <li class="flex justify-between items-center text-gray-500">
-            <div><span class="text-red-500">&#9679;</span> Sonntag</div>
-            <div>Geschlossen</div>
-          </li>
-        </ol>
-        <ul class="w-64 mt-8 sm:mt-0 sm:w-1/2 sm:text-right">
+      <div class="max-w-5xl mx-auto flex justify-around flex-wrap">
+        <div class="flex flex-col">
+          <h2 class="mx-4 py-2 text-base">Öffnungszeiten</h2>
+          <ol class="w-64 mx-4 mt-6">
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Montag</div>
+              <div><time>10:00</time> - <time>16:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Dienstag</div>
+              <div><time>09:00</time> - <time>22:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Mittwoch</div>
+              <div><time>08:00</time> - <time>15:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Donnerstag</div>
+              <div><time>08:00</time> - <time>15:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Freitag</div>
+              <div><time>08:00</time> - <time>20:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Samstag</div>
+              <div><time>10:00</time> - <time>14:00</time></div>
+            </li>
+            <li class="flex justify-between items-center text-gray-500">
+              <div><span class="text-red-500">&#9679;</span> Sonntag</div>
+              <div>Geschlossen</div>
+            </li>
+          </ol>
+        </div>
+        <ul class="w-64 mx-4 mt-10 self-end truncate md:mt-0 md:text-right">
           <li><a class="hover:underline" href="#">Home</a></li>
           <li><a class="hover:underline" href="#">Massagen</a></li>
           <li><a class="hover:underline" href="#">Workshops</a></li>
