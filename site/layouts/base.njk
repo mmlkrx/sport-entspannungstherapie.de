@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sport Entspannungstherapie</title>
+    <link href="https://fonts.googleapis.com/css?family=Spinnaker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head>
+  <body class="text-xl font-body antialiased text-gray-900">
+    <header class="fixed top-0 z-50 w-full bg-white shadow md:px-6 md:py-6">
+      <div class="md:flex md:flex-row-reverse md:justify-between md:items-center md:max-w-6xl md:mx-auto">
+        <div class="flex flex-grow items-center justify-between px-3 py-4 md:p-0 md:flex-grow-0">
+          <div id="menuBtn" class="md:hidden">
+            <svg class="h-10 w-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+            </svg>
+          </div>
+          <button class="px-3 py-2 border-solid border-2 rounded border-transparent bg-beige-500 shadow-md hover:shadow-lg">
+            <a href="#">Termin buchen</a>
+          </button>
+        </div>
+        <nav id="navMenu" class="hidden px-4 pb-4 md:flex md:flex-grow md:p-0">
+          <a href="/" class="block py-1 px-2 hover:bg-gray-100 rounded">Home</a>
+          <a href="/massages" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded md:mt-0 md:ml-2">Massagen</a>
+          <a href="#" class="block mt-1 py-1 px-2 hover:bg-gray-100 rounded md:mt-0 md:ml-2">Über uns</a>
+        </nav>
+      </div>
+    </header>
+
+    {{ content | safe }}
+
+    <footer class="mt-24 pt-16 w-full bg-beige-200 font-mono text-sm">
+      <div class="max-w-5xl mx-auto flex justify-around flex-wrap">
+        <div class="flex flex-col">
+          <h2 class="mx-4 py-2 text-base">Öffnungszeiten</h2>
+          <ol class="w-64 mx-4 mt-6">
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Montag</div>
+              <div><time>10:00</time> - <time>16:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Dienstag</div>
+              <div><time>09:00</time> - <time>22:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Mittwoch</div>
+              <div><time>08:00</time> - <time>15:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Donnerstag</div>
+              <div><time>08:00</time> - <time>15:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Freitag</div>
+              <div><time>08:00</time> - <time>20:00</time></div>
+            </li>
+            <li class="flex justify-between items-center">
+              <div><span class="text-green-500">&#9679;</span> Samstag</div>
+              <div><time>10:00</time> - <time>14:00</time></div>
+            </li>
+            <li class="flex justify-between items-center text-gray-500">
+              <div><span class="text-red-500">&#9679;</span> Sonntag</div>
+              <div>Geschlossen</div>
+            </li>
+          </ol>
+        </div>
+        <ul class="w-64 mx-4 mt-10 self-end truncate md:mt-0 md:text-right">
+          <li><a class="hover:underline" href="/">Home</a></li>
+          <li><a class="hover:underline" href="#">Massagen</a></li>
+          <li><a class="hover:underline" href="#">Über uns</a></li>
+          <li><a class="hover:underline" href="#">Kontakt / Impressum</a></li>
+          <li><a class="hover:underline" href="#">Datenschutzerklärung</a></li>
+        </ul>
+      </div>
+      <div class="mt-12 py-4 text-center text-beige-600 bg-beige-300">
+        <p>© 2019 www.sport-entspannungstherapie.de - Betreuung durch Oliver Seifert</p>
+      </div>
+    </footer>
+  </body>
+  <script src="/js/dropdown.js"></script>
+</html>

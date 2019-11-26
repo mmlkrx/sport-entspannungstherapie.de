@@ -5,7 +5,7 @@ module.exports = {
         'body': ['Spinnaker', 'sans-serif']
       },
       height: {
-        '80/100': '80%'
+        '80/100': '80vh'
       },
       colors: {
         'beige-100': '#fff9f4',

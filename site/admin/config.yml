@@ -17,7 +17,6 @@ collections:
         fields:
           - {label: "Hero Title", name: heroTitle, widget: string}
           - {label: "Hero Subtitle", name: heroSubtitle, widget: string}
-          - {label: "Booking Button", name: btnBookingTitle, widget: string}
   - label: "Ankündigungen" # Used in the UI
     label_singular: "Ankündigung"
     name: "announcement" # Used in routes, e.g., /admin/collections/blog
