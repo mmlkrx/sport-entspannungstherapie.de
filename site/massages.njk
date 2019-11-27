@@ -7,7 +7,7 @@ layout: base.njk
   <div class="max-w-6xl mx-auto flex flex-wrap">
 
     {%- for service in collections.service -%}
-      <div class="mb-20 max-w-xs mx-auto flex flex-col shadow-lg md:max-w-full md:flex-row md:shadow-none md:mb-56">
+      <div id="{{ service.fileSlug }}" class="mb-20 max-w-xs mx-auto flex flex-col shadow-lg md:max-w-full md:flex-row md:shadow-none md:mb-56">
         <div class="md:w-1/3 text-center flex flex-col items-center bg-beige-100 md:bg-transparent">
           <img class="h-48 w-full object-cover opacity-75 md:h-full" src="{{ service.data.imageUrl }}">
           <h2 class="p-4 -mt-8 inline-block bg-white shadow-md z-10 rounded md:hidden">{{ service.data.name }}</h2>
