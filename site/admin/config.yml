@@ -5,7 +5,8 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: "site/images"
+media_folder: "site/images" # Folder path where uploaded files should be saved, relative to the base of the repo
+public_folder: "/images" # Folder path where the files uploaded by the media library will be accessed, relative to the base of the built site
 
 collections:
   - label: "Seiten"
