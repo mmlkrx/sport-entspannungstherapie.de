@@ -5,7 +5,7 @@ module.exports = function(config) {
 
   // returns array of collection objects that should be displayed (show: true)
   config.addCollection("visibleAnnouncements", function(collection) {
-    return collection.getAll().filter(function(item) {
+    return collection.getFilteredByTag("announcement").filter(function(item) {
       if (item.data.show == true) {
         return item;
       }

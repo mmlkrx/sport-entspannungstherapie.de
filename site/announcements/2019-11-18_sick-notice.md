@@ -1,5 +1,6 @@
 ---
 name: Winter Ansteckungsgefahr
+tags: announcement
 show: false
 ---
 
