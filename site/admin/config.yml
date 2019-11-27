@@ -17,6 +17,7 @@ collections:
         fields:
           - {label: "Hero Title", name: heroTitle, widget: string}
           - {label: "Hero Subtitle", name: heroSubtitle, widget: string}
+
   - label: "Ankündigungen" # Used in the UI
     label_singular: "Ankündigung"
     name: "announcement" # Used in routes, e.g., /admin/collections/blog
@@ -28,3 +29,18 @@ collections:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Anzeigen?", name: "show", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+  - label: "Services"
+    label_singular: "Service"
+    name: "service"
+    identifier_field: "name"
+    folder: "site/services"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Tag", name: "tags", widget: "select", options: ["service"] }
+      - { label: "Anzeigen?", name: "show", widget: "boolean" }
+      - { label: "Bild", name: "image", widget: "image"}
+      - { label: "Kurzbeschreibung", name: "shortDescription", widget: "string"}
+      - { label: "Ausführliche Beschreibung", name: "body", widget: "markdown" }
