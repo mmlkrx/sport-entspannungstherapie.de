@@ -40,8 +40,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Tag", name: "tags", widget: "select", options: ["service"] }
+      - { label: "Tag", name: "tags", widget: "select", options: ["service"], default: "service" }
       - { label: "Anzeigen?", name: "show", widget: "boolean" }
-      - { label: "Bild", name: "image", widget: "image"}
+      - { label: "Bild", name: "imageUrl", widget: "image"}
       - { label: "Kurzbeschreibung", name: "shortDescription", widget: "string"}
       - { label: "Ausführliche Beschreibung", name: "body", widget: "markdown" }

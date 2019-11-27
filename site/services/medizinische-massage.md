@@ -2,7 +2,7 @@
 name: Medizinische Massage
 tags: service
 show: true
-image: /images/massage_medical.jpg
+imageUrl: /images/massage_medical.jpg
 shortDescription: >-
   Die Medizinische Massage dient als Vorsorgemaßnahme zur Verhinderung von
   Krankheiten, Leiden und Körperschaden.
