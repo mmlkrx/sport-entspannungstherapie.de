@@ -7,7 +7,7 @@ layout: base.njk
   <div class="max-w-5xl mx-auto flex flex-wrap">
     {%- for teamMember in collections.team -%}
       {%- if teamMember.data.show -%}
-        <div class="p-4 mb-20 max-w-xs mx-auto flex flex-col items-center">
+        <div class="mb-20 max-w-xs mx-auto flex flex-col items-center">
           <img class="h-48 w-48 object-cover rounded-full" src="{{ teamMember.data.imageUrl }}">
           <h2 class="py-4 mt-2 text-2xl text-red-800">{{ teamMember.data.name }}</h2>
           <div class="w-12 h-1 bg-beige-400"></div>
@@ -17,5 +17,15 @@ layout: base.njk
         </div>
       {%- endif -%}
     {%- endfor -%}
+  </div>
+</section>
+
+<section>
+  <h2 class="pb-10 text-3xl text-center md:pt-6 md:mb-16 md:text-5xl">Unsere Philosophie</h2>
+  <div class="px-6 max-w-3xl mx-auto">
+    <p class="mb-8">Die Sport- und Entspannungstherapie in Berlin-Friedrichshain hat zum Ziel, Sie mit den Möglichkeiten von Heilkunde, Sportheilkunde, Entspannung und Osteopathie vertraut zu machen, um Schmerz oder Missempfindungen gezielt zu lindern.</p>
+    <p class="mb-8">Besonderen Wert legen wir auf ganzheitliche Betrachtung.</p>
+    <p class="mb-8">Hierfür bieten wir Ihnen ein weites Spektrum an funktionellen Massagen, wie z.B. medizinisch manuelle Massagen, Schulter-Nackenmassage, Dorn-Breuss, Fußreflexzonenmassage, ThaiYoga/ Shiatsu-Massage, Triggerpunktmassage und Schröpfen, jeweils unter Berücksichtigung der Osteopathie.</p>
+    <p class="mb-8">In vielen Fällen ist die Bewegung die eigentliche Medizin bzw. Therapie. Oft helfen schon gezielte Übungen, um den Körper wieder ins gesundheitliche Gleichgewicht zu bringen.</p>
   </div>
 </section>
