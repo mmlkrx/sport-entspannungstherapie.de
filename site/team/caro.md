@@ -1,5 +1,5 @@
 ---
-name: Carola
+name: Caro
 tags: team
 show: true
 imageUrl: /images/carola.jpg
