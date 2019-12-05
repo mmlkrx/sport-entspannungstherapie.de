@@ -2,7 +2,7 @@
 name: Jasmine
 tags: team
 show: true
-imageUrl: /images/jasmine.jpg
+imageUrl: /images/jasmine_farbe.jpg
 ---
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
