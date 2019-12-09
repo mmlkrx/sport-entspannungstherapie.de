@@ -9,5 +9,22 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script type="text/javascript">
+    var TeamMemberPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var imageUrl = entry.getIn(['data', 'imageUrl']);
+        return h('div', {"className": "text-xl font-body antialiased text-gray-900 mt-20 p-4 shadow max-w-xs mx-auto flex flex-col items-center"},
+          h('img', {src: imageUrl, "className": "h-48 w-48 object-cover rounded-full"}),
+          h('h2', {"className": "py-4 mt-2 text-2xl text-red-800"}, entry.getIn(['data', 'name'])),
+          h('div', {"className": "w-12 h-1 bg-beige-400"}),
+          h('div', {"className": "mt-8 markdown"}, this.props.widgetFor('body'))
+        );
+      }
+    });
+
+    CMS.registerPreviewTemplate('team', TeamMemberPreview);
+    CMS.registerPreviewStyle("/css/styles.css");
+  </script>
 </body>
 </html>
