@@ -4,6 +4,8 @@ tags: team
 show: true
 imageUrl: /images/carola_farbe.jpg
 ---
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Als Gründerin der Sport- und Entspannungstherapie in Friedrichshain, liebt es Caro Menschen durch eine ganzheitliche Beratung und Behandlung von Schmerzen zu befreien.
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Dafür packt Sie nicht nur an der richtigen Stelle an, sondern greift auch auf über 20 Jahre Erfahrung zurück in den Bereichen Trainingstherapie, Entspannungstherapie, Reha Sport, oder Pilates.
+
+Im Berliner Alltag ist Sie öfter mal mit Ihrem Hund zu sehen 🐕.

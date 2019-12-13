@@ -4,6 +4,6 @@ tags: team
 show: true
 imageUrl: /images/jasmine_farbe.jpg
 ---
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+Jasmine arbeitet seid 2019 mit Caro zusammen und bringt ihr Wissen als ausgebildete Wellness- Therapeutin mit ein.
 
-At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Sie ist spezialisiert auf die Hot Stone Massage, die Ayurvedische- und Klassische Massage, so wie die Fußreflexzonen Massage.
