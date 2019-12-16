@@ -4,8 +4,8 @@ tags: team
 show: true
 imageUrl: /images/carola_farbe.jpg
 ---
-Als Gründerin der Sport- und Entspannungstherapie in Friedrichshain, liebt es Caro Menschen durch eine ganzheitliche Beratung und Behandlung von Schmerzen zu befreien.
+Als Gründerin der Sport- und Entspannungstherapie in Friedrichshain, greift Caro auf Ihre langjährige Berufserfahrung zurück.
 
-Dafür packt Sie nicht nur an der richtigen Stelle an, sondern greift auch auf über 20 Jahre Erfahrung zurück in den Bereichen Trainingstherapie, Entspannungstherapie, Reha Sport, oder Pilates.
+Vorher war sie tätig in verschiedenen Physiotherapien und in der Reha Berlin-Köpenick mit Schwerpunkt Arbeitsunfällen.
 
-Im Berliner Alltag ist Sie öfter mal mit Ihrem Hund zu sehen 🐕.
+Seit 2010 arbeitet sie selbstständig, wobei sie sich kontinuierlich weiterbildet in den Bereichen Osteopathie, Kineosologie, und Heilpraktikerin, um weitere Behandlungsmöglichkeiten in der Schmerztherapie anzubieten.
