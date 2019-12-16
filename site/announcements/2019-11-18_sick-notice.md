@@ -1,7 +1,7 @@
 ---
 name: Winter Ansteckungsgefahr
 tags: announcement
-show: false
+show: true
 ---
 
-Auf Grund der hohen Ansteckungsgefahr, habt bitte Verständnis dafür, dass ich keine Behandlungen an erkälteten Personen durchführe.
+Auf Grund der hohen Ansteckungsgefahr, habt bitte Verständnis dafür, dass wir keine Behandlungen an erkälteten Personen durchführen.
