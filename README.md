@@ -2,18 +2,24 @@
 
 This site is build with the [11ty](https://www.11ty.io/) static site generator.
 
-# Installation
+# How to make changes
+
+All changes should be made inside the `site/` directory. This is where all source files are. The `site/` directory can not be deployed, instead, the `npm run build:prod` command will generate a new `_site/` directory from the files inside `site/` and that directory should be deployed. To make the build command work, first install all necessary javascript libraries:
 
 ```shell
 npm install
 ```
 
-# How to get started
+It's now possible to make changes to files inside `site/` and run `npm run build:prod` to generate `_site/`. A more typical approach however, is to run a local server that watches files inside `site/` automatically and regenerates `_site/` every time you make a change so you can preview changes locally in the browser before moving `_site/` to a server.
+
+To start a local development server, run the following commands:
 
 ```shell
 npm run build:dev
 npm run dev
 ```
+
+You can now start changing files in `site/` and see the changes in your browser at `http://localhost:8080`.
 
 # Glossary
 
