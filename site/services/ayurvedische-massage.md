@@ -2,7 +2,7 @@
 name: Ayurvedische Massage
 tags: service
 show: true
-imageUrl: /images/icon_menu.svg
+imageUrl: /images/massage_classic.jpg
 shortDescription: '11'
 ---
 11
