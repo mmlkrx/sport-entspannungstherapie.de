@@ -1,7 +1,7 @@
 ---
 name: Jasmine
 tags: team
-show: true
+show: false
 imageUrl: /images/jasmine_farbe.jpg
 ---
 Jasmine arbeitet seit 2019 mit Caro zusammen und bringt ihr Wissen als ausgebildete Wellness- Therapeutin mit ein.
