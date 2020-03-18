@@ -3,7 +3,7 @@ name: Aktuelle Information
 tags: announcement
 show: true
 ---
-Liebe Kunden,
+<br />Liebe Kunden,
 
 wir verstehen, dass die aktuelle Situation zu Verunsicherungen und Sorgen führen kann.
 <br />
