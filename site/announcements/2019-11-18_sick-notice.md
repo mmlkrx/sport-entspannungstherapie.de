@@ -1,5 +1,5 @@
 ---
-name: Winter Ansteckungsgefahr
+name: Aktuelle Information
 tags: announcement
 show: true
 ---
