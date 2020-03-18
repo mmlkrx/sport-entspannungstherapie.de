@@ -11,7 +11,7 @@ Aus diesem Grund möchten wir, um euch bestmöglich zu schützen, wie folgt info
 <br /><br />
 Die Öffnungszeiten sind:
 
-Dienstag - Samstag von 10.00 - 14.00 Uhr
+<b>Dienstag - Samstag von 10.00 - 14.00 Uhr</b>
 <br /><br />
 Es steht eine separate Umkleidekabine zur Verfügung.
 
