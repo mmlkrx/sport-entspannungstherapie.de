@@ -5,7 +5,7 @@ show: true
 ---
 Liebe Kunden,
 
-<br /><b>leider müssen wir jetzt, zu Ihrer und unserer Sicherheit, unsere Massagepraxis schließen.</b>
+<br /><b>leider müssen wir jetzt, zu Ihrer und unserer Sicherheit, unsere Massagepraxis vorübergehend schließen.</b>
 
 <br />Bitte informieren Sie sich auf unserer Website:
 
