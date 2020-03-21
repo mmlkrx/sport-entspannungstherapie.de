@@ -3,22 +3,16 @@ name: Aktuelle Information
 tags: announcement
 show: true
 ---
-<br />Liebe Kunden,
+Liebe Kunden,
 
-wir verstehen, dass die aktuelle Situation zu Verunsicherungen und Sorgen führen kann.
-<br />
-Aus diesem Grund möchten wir, um euch bestmöglich zu schützen, wie folgt informieren:
-<br /><br />
-Die Öffnungszeiten sind:
+<br /><b>leider müssen wir jetzt, zu Ihrer und unserer Sicherheit, unsere Massagepraxis schließen.</b>
 
-<b>Dienstag - Samstag von 10.00 - 14.00 Uhr</b>
-<br /><br />
-Es steht eine separate Umkleidekabine zur Verfügung.
+<br />Bitte informieren Sie sich auf unserer Website:
 
-Die Behandlungen werden von unserer Seite ausschließlich mit Mundschutz und Handschuhen durchgeführt.
-<br /><br />
-Solltet ihr Erkältungssymptome zeigen, bitte ich euch den Termin zu verschieben.
-<br /><br />
-In der Hoffnung, dass wir alle gesund bleiben,
+<br />[www.sport-​entspannungstherapie.de](http://www.sport-entspannungstherapie.de)
 
-grüßt euch, eure Caro
+<br />über den aktuellen Stand.
+
+<br />In der Hoffnung, dass wir alle gesund bleiben,
+
+grüßt Sie, eure Caro
