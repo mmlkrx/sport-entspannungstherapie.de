@@ -15,4 +15,4 @@ Liebe Kunden,
 
 <br />In der Hoffnung, dass wir alle gesund bleiben,
 
-grüßt Sie, eure Caro
+grüßt Sie, ihre Caro
