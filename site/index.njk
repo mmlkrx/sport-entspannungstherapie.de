@@ -1,19 +1,16 @@
 ---
 layout: base.njk
 ---
-<section class="mb-16 h-80/100 text-center flex items-center justify-center bg-cover bg-center md:mb-12 md:text-left" style="background-image: url('/images/hero_homepage.jpg')">
-  <div class="mx-6 p-4 max-w-6xl bg-white opacity-75 border-2 border-gray-200 md:w-4/6 md:py-8 md:border-none">
-    <h1 class="text-4xl mb-6 md:w-2/3">{{ heroTitle }}</h1>
-    <p>{{ heroSubtitle }}</p>
-  </div>
-</section>
-
-{%- if collections.visibleAnnouncements | length > 0 -%}
-  <section class="mb-16 px-2">
-    <div class="border-dashed border-4 border-red-500 max-w-5xl mx-auto rounded">
-      <div class="px-6 pt-8 m-2 bg-red-100 rounded">
-        <h2 class="inline-block mb-8 pb-2 border-b-2 border-red-800 text-2xl text-red-900">Aktuelle Ankündigungen</h2>
-        <ul class="overflow-auto">
+<section class="mb-16 text-center flex items-start justify-center bg-cover bg-center md:mb-4 md:text-left">
+  <div class="mx-6 flex flex-col md:w-3/5">
+    <div class="p-4 mb-4 bg-white opacity-75 border-2 border-gray-200 md:py-8 md:border-none">
+      <h1 class="text-3xl mb-4">{{ heroTitle }}</h1>
+      <p>{{ heroSubtitle }}</p>
+    </div>
+    {%- if collections.visibleAnnouncements | length > 0 -%}
+      <div class="px-6 pt-4 bg-red-100 rounded shadow-lg">
+        <h2 class="inline-block mb-4 border-b-2 border-red-800 text-sm text-red-900">Aktuelle Ankündigungen</h2>
+        <ul class="overflow-auto text-xs text-left">
         {%- for announcement in collections.visibleAnnouncements -%}
           <li class="mb-8">
             {{ announcement.templateContent | safe }}
@@ -21,15 +18,19 @@ layout: base.njk
         {%- endfor -%}
         </ul>
       </div>
-    </div>
-  </section>
-{%- endif -%}
+    {%- endif -%}
+  </div>
+  <div class="hidden flex items-start w-2/5 md:block">
+    <img class="w-full h-full max-h-3/4 min-h-1/2 object-cover object-right" src="/images/hero_homepage.jpg">
+  </div>
+</section>
+
 
 <svg class="svg-waves fill-current text-beige-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
   <path d="M0 96l80-5.3c80-5.7 240-15.7 400 0C640 107 800 149 960 149.3c160-.3 320-42.3 400-64l80-21.3v256H0z"/>
 </svg>
 <section class="px-4 bg-beige-300">
-  <h2 class="pt-6 pb-10 text-3xl text-center md:mb-16 md:text-5xl">Unser Service für euch</h2>
+  <h2 class="pt-2 pb-10 text-3xl text-center md:mb-16 md:text-5xl">Unser Service für euch</h2>
   <div class="max-w-6xl mx-auto flex flex-wrap justify-around">
     {%- for service in collections.service -%}
       {%- if service.data.show -%}

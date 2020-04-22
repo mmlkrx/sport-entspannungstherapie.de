@@ -7,6 +7,12 @@ module.exports = {
       height: {
         '80/100': '80vh'
       },
+      maxHeight: {
+        '3/4': '75vh'
+      },
+      minHeight: {
+        '1/2': '50vh'
+      },
       colors: {
         'beige-100': '#fff9f4',
         'beige-200': '#f5ede5',
