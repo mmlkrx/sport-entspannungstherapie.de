@@ -2,7 +2,7 @@
 name: Caro
 tags: team
 show: true
-imageUrl: /images/carola_farbe.jpg
+imageUrl: /images/foto_2.jpg
 ---
 Als Gründerin der Sport- und Entspannungstherapie in Friedrichshain, greift Caro auf Ihre langjährige Berufserfahrung zurück.
 
