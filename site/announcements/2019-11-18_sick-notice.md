@@ -7,7 +7,7 @@ Liebe Kunden,
 
 bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu beachten:
 
-\- Hände waschen nach dem betreten der Praxis
+\- Hände waschen nach dem Betreten der Praxis
 
 \- während der Behandlung ist ein Mund-, Nasenschutz zu tragen
 
