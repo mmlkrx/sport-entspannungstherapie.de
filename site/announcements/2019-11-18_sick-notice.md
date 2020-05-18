@@ -5,8 +5,16 @@ show: true
 ---
 Liebe Kunden,
 
-leider müssen wir jetzt, zu Ihrer und unserer Sicherheit, unsere Massagepraxis vorübergehend schließen.
+bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu beachten:
 
-In der Hoffnung, dass wir alle gesund bleiben,
+\- Hände waschen nach dem betreten der Praxis
 
-grüßt Sie, ihre Caro
+\- während der Behandlung ist ein Mund-, Nasenschutz zu tragen
+
+\- Kontaktdaten müssen erfasst werden
+
+\- die Massage wird mit Handschuhen durchgeführt
+
+\- euer eigenes Handtuch mitzubringen wäre von Vorteil
+
+Es grüßt Sie, ihre Caro
