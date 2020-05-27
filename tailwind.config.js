@@ -1,4 +1,7 @@
 module.exports = {
+  purge: [
+    './site/**/*.njk'
+  ],
   theme: {
     extend: {
       fontFamily: {
