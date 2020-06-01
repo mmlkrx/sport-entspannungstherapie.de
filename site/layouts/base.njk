@@ -38,34 +38,21 @@
         <div class="flex flex-col">
           <h2 class="mx-4 py-2 text-base">Öffnungszeiten</h2>
           <ol class="w-64 mx-4 mt-6">
-            <li class="flex justify-between items-center text-gray-500">
-              <div><span class="text-red-500">&#9679;</span> Montag</div>
-              <div>Geschlossen</div>
-            </li>
-            <li class="flex justify-between items-center">
-              <div><span class="text-green-500">&#9679;</span> Dienstag</div>
-              <div><time>16:00</time> - <time>20:00</time></div>
-            </li>
-            <li class="flex justify-between items-center">
-              <div><span class="text-green-500">&#9679;</span> Mittwoch</div>
-              <div><time>10:00</time> - <time>14:00</time></div>
-            </li>
-            <li class="flex justify-between items-center">
-              <div><span class="text-green-500">&#9679;</span> Donnerstag</div>
-              <div><time>10:00</time> - <time>14:00</time></div>
-            </li>
-            <li class="flex justify-between items-center">
-              <div><span class="text-green-500">&#9679;</span> Freitag</div>
-              <div><time>10:00</time> - <time>14:00</time></div>
-            </li>
-            <li class="flex justify-between items-center">
-              <div><span class="text-green-500">&#9679;</span> Samstag</div>
-              <div><time>10:00</time> - <time>14:00</time></div>
-            </li>
-            <li class="flex justify-between items-center text-gray-500">
-              <div><span class="text-red-500">&#9679;</span> Sonntag</div>
-              <div>Geschlossen</div>
-            </li>
+            {%- for week_day in collections.week_day -%}
+              {%- if week_day.data.open -%}
+                <li class="flex justify-between items-center">
+                  <div><span class="text-green-500">&#9679;</span> {{ week_day.data.day_name }}</div>
+                  <div>
+                    <time>{{ week_day.data.open_from }}</time> - <time>{{ week_day.data.open_until }}</time>
+                  </div>
+                </li>
+              {%- else -%}
+                <li class="flex justify-between items-center text-gray-500">
+                  <div><span class="text-red-500">&#9679;</span> {{ week_day.data.day_name }}</div>
+                  <div>Geschlossen</div>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
           </ol>
         </div>
         <ul class="w-64 mx-4 mt-10 self-end truncate md:mt-0 md:text-right">

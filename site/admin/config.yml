@@ -28,7 +28,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, {{slug}} is a url-safe version of the title field (or identifier field) for the file (name in our case)
     fields: # Since we're using markdown files, files will be saved with data frontmatter followed by an unparsed body text (edited using a body field)
       - { label: "Name", name: "name", widget: "string" }
-      - { label: "Tag", name: "tags", widget: "hidden", default: "announcement"}
+      - { label: "Tag", name: "tags", widget: "hidden", default: "announcement"} # This is important for our static site generator 11ty because 11ty will look for a 'tags' frontmatter and make it available as a collections.tag_name function
       - { label: "Anzeigen?", name: "show", widget: "boolean" }
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -60,3 +60,18 @@ collections:
       - { label: "Anzeigen?", name: "show", widget: "boolean", default: true }
       - { label: "Bild", name: "imageUrl", widget: "image"}
       - { label: "Biographie", name: "body", widget: "markdown" }
+
+  - label: "Öffnungszeiten"
+    format: "json-frontmatter" # using this because neither netlify nor 11ty would parse the "hh:mm" formatted times correctly in the yaml frontmatter because it's not saved with quotes around it
+    frontmatter_delimiter: ["---json\n{", "}\n---"] # 11ty expects json frontmatter to have curly braces, which is not the netlifycms default, so we add them here manually
+    name: "opening_hours"
+    identifier_field: "day_name"
+    create: false
+    folder: "site/opening_hours"
+    slug: "{{fields.day_name}}"
+    fields:
+      - { name: "tags", widget: "hidden", default: "week_day" }
+      - { label: "Tag", name: "day_name", widget: "select", options: ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"] }
+      - { label: "Geöffnet?", name: "open", widget: "boolean", default: true }
+      - { label: "Geöffnet ab", name: "open_from", widget: "select", options: ["8:00", "8:30", "9:00", "9:30", "10:00", "10:30", "11:00", "11:30", "12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00"] }
+      - { label: "Geöffnet bis", name: "open_until", widget: "select", options: ["12:00", "12:30", "13:00", "13:30", "14:00", "14:30", "15:00", "15:30", "16:00", "16:30", "17:00", "17:30", "18:00", "18:30", "19:00", "19:30", "20:00", "20:30", "21:00", "21:30", "22:00", "22:30", "23:00"] }
