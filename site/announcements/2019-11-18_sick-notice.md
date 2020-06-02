@@ -19,4 +19,4 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 Es grüßt Sie, ihre Caro
 
-\==> Zur Zeit ist im Studio nur **Barzahlung** möglich!
+`<font color="#ffff00">==></font color> `Zur Zeit ist im Studio nur **Barzahlung** möglich!
