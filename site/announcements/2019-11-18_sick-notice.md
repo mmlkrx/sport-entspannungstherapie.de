@@ -17,6 +17,6 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 \- euer eigenes Handtuch mitzubringen wäre von Vorteil
 
-Es grüßt Sie, ihre Caro
+Es grüßt Sie Ihre Caro
 
 **\==>** Zur Zeit ist im Studio nur **Barzahlung** möglich! **<==**
