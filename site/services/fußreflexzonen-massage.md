@@ -15,7 +15,7 @@ Eine Fußreflexzonenmassage kann Schmerzen lindern und wirkt beruhigend. Sie reg
 
 Die Massagetechnik wird beispielsweise bei Rücken-, Kopf- oder Menstruationsbeschwerden, Funktionsstörungen von Organen, Schlafstörungen, Erschöpfungszuständen, Lymphödemen oder Arthritis angewandt.
 
-`<br /><br />`
+<br /><br />
 
 #### TERMINABSAGE
 
