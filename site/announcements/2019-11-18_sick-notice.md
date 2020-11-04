@@ -9,10 +9,6 @@ auf Grund der Regeln des Senats von Berlin zur Vermeidung der Verbreitung des CO
 </br ></br >
 Die Praxis des Heilpraktiker Thomas ist weiterhin erreichbar unter:</br > Tel. Nr. 01521 1358162. 
 </br ></br >
-Bitte buchen Sie einen Termin.
-
- ist weiterhin erreichbar unter der TelNr. 01521 1358162
-</br ></br >
 <a href="https://connect.shore.com/bookings/heilpraxis-rasayana/services?locale=de&origin=standalone" target="_blank" class="px-3 py-2 border-solid border-2 rounded border-transparent bg-beige-500 shadow-md hover:shadow-lg">Termin buchen</a>
 
 <!--
