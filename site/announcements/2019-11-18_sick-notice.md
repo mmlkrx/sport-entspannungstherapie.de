@@ -5,7 +5,7 @@ show: true
 ---
 Liebe Kunden,
 
-auf Grund der Regeln des Senats von Berlin zur Vermeidung der Verbreitung des CORONA Virus, schließen wir die Sport- und Entspannungstherapie bis einschließlich 30. November 2020
+auf Grund der Regeln des Senats von Berlin zur Vermeidung der Verbreitung des CORONA Virus, </br >schließen wir die Sport- und Entspannungstherapie bis einschließlich 30. November 2020
 </br ></br >
 Die Praxis des Heilpraktiker Thomas ist weiterhin erreichbar unter:</br > Tel. Nr.: 01521 1358162. 
 </br ></br >
@@ -26,5 +26,5 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 Es grüßt Sie Ihre Caro
 
-\*\*\==>\*\* Zur Zeit ist im Studio nur \*\*Barzahlung\*\* möglich! \*\*<==\*\*
+\\*\\*\==>\\*\\* Zur Zeit ist im Studio nur \\*\\*Barzahlung\\*\\* möglich! \\*\\*<==\\*\\*
 -->
