@@ -5,11 +5,10 @@ show: true
 ---
 Liebe Kunden,
 
-auf Grund der Regeln des Senats von Berlin zur Vermeidung der Verbreitung des CORONA Virus, </br >schließen wir die Sport- und Entspannungstherapie bis einschließlich 30. November 2020
+auf Grund der Regeln des Senats von Berlin zur Vermeidung der Verbreitung des CORONA Virus, </br >schließen wir die Sport- und Entspannungstherapie bis auf Weiteres. Wir informieren Sie über Weiteres an dieser Stelle.
 </br ></br >
-Die Praxis des Heilpraktiker Thomas ist weiterhin erreichbar unter:</br > Tel. Nr.: 01521 1358162. 
-</br ></br >
-<a href="https://connect.shore.com/bookings/heilpraxis-rasayana/services?locale=de&origin=standalone" target="_blank" class="px-3 py-2 border-solid border-2 rounded border-transparent bg-beige-500 shadow-md hover:shadow-lg">Termin buchen</a>
+Der Heilpraktiker Thomas ist weiterhin erreichbar unter:</br > Tel. Nr.: 01521 1358162. 
+
 
 <!--
 bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu beachten:
@@ -26,5 +25,5 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 Es grüßt Sie Ihre Caro
 
-\\*\\*\==>\\*\\* Zur Zeit ist im Studio nur \\*\\*Barzahlung\\*\\* möglich! \\*\\*<==\\*\\*
+\\\*\\\*\==>\\\*\\\* Zur Zeit ist im Studio nur \\\*\\\*Barzahlung\\\*\\\* möglich! \\\*\\\*<==\\\*\\\*
 -->
