@@ -5,9 +5,9 @@ show: true
 ---
 Liebe Kunden,
 
-auf Grund der Regeln des Senats von Berlin zur Vermeidung der Verbreitung des CORONA Virus, </br >schließen wir die Sport- und Entspannungstherapie bis auf Weiteres. 
+unsere Praxis hat für Sie zu den angegebenen Öffnungszeiten geöffnet.
 
-</br >Wir informieren Sie über Weiteres an dieser Stelle.
+Bitte nutzen Sie den Button "Termin buchen" um sich für eine Behandlung einzutragen.
 </br ></br >
 
 <!--
@@ -28,5 +28,5 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 Es grüßt Sie Ihre Caro
 
-\\\\\*\\\\\*\==>\\\\\*\\\\\* Zur Zeit ist im Studio nur \\\\\*\\\\\*Barzahlung\\\\\*\\\\\* möglich! \\\\\*\\\\\*<==\\\\\*\\\\\*
+\\\\\\*\\\\\\*\==>\\\\\\*\\\\\\* Zur Zeit ist im Studio nur \\\\\\*\\\\\\*Barzahlung\\\\\\*\\\\\\* möglich! \\\\\\*\\\\\\*<==\\\\\\*\\\\\\*
 -->
