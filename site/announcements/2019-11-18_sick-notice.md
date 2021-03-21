@@ -11,12 +11,18 @@ Bitte nutzen Sie den Button "Termin buchen" um sich für eine Behandlung einzutr
 </br >
 
 Folgende Regeln müssen beachtet werden:
-  - wenn möglich, tagesaktuellen Schnelltest
-  - Hände waschen nach dem Betreten der Praxis
-  - während der Behandlung ist ein Mund-, Nasenschutz zu tragen
-  - Kontaktdaten müssen erfasst werden
-  - die Massage wird mit Handschuhen durchgeführt.
-  - euer eigenes Handtuch mitzubringen wäre von Vorteil.
+
+\- wenn möglich, tagesaktuellen Schnelltest
+
+\- Hände waschen nach dem Betreten der Praxis
+
+\- während der Behandlung ist ein Mund-, Nasenschutz zu tragen
+
+\- Kontaktdaten müssen erfasst werden
+
+\- die Massage wird mit Handschuhen durchgeführt.
+
+\- euer eigenes Handtuch mitzubringen wäre von Vorteil.
 
 </br >
 
@@ -38,5 +44,5 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 Es grüßt Sie Ihre Caro
 
-\\\\\\\\*\\\\\\\\*\==>\\\\\\\\*\\\\\\\\* Zur Zeit ist im Studio nur \\\\\\\\*\\\\\\\\*Barzahlung\\\\\\\\*\\\\\\\\* möglich! \\\\\\\\*\\\\\\\\*<==\\\\\\\\*\\\\\\\\*
+\\\\\\\\\*\\\\\\\\\*\==>\\\\\\\\\*\\\\\\\\\* Zur Zeit ist im Studio nur \\\\\\\\\*\\\\\\\\\*Barzahlung\\\\\\\\\*\\\\\\\\\* möglich! \\\\\\\\\*\\\\\\\\\*<==\\\\\\\\\*\\\\\\\\\*
 -->
