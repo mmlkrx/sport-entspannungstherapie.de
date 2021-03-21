@@ -8,7 +8,7 @@ Liebe Kunden,
 unsere Praxis hat für Sie zu den angegebenen Öffnungszeiten geöffnet.
 
 Bitte nutzen Sie den Button "Termin buchen" um sich für eine Behandlung einzutragen.
-</br >
+</br ></br >
 
 Folgende Regeln müssen beachtet werden:
 
@@ -44,5 +44,5 @@ bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu bea
 
 Es grüßt Sie Ihre Caro
 
-\\\\\\\\\*\\\\\\\\\*\==>\\\\\\\\\*\\\\\\\\\* Zur Zeit ist im Studio nur \\\\\\\\\*\\\\\\\\\*Barzahlung\\\\\\\\\*\\\\\\\\\* möglich! \\\\\\\\\*\\\\\\\\\*<==\\\\\\\\\*\\\\\\\\\*
+\\\\\\\\\\*\\\\\\\\\\*\==>\\\\\\\\\\*\\\\\\\\\\* Zur Zeit ist im Studio nur \\\\\\\\\\*\\\\\\\\\\*Barzahlung\\\\\\\\\\*\\\\\\\\\\* möglich! \\\\\\\\\\*\\\\\\\\\\*<==\\\\\\\\\\*\\\\\\\\\\*
 -->
