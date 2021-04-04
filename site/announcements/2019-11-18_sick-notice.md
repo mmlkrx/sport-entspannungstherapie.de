@@ -3,6 +3,10 @@ name: Aktuelle Information
 tags: announcement
 show: true
 ---
+Auszug aus SARS-CoV-2-Infektionsschutzmaßnahmenverordnung vom 27.03.2021:</br >
+
+"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, die ... **[*tagesaktuell*] negativ getestet** wurden."</br ></br >
+
 Liebe Kunden,
 
 unsere Praxis hat für Sie zu den angegebenen Öffnungszeiten geöffnet.
@@ -25,7 +29,3 @@ Folgende Regeln müssen beachtet werden:
 \- euer eigenes Handtuch mitzubringen wäre von Vorteil.
 
 </br >
-
-Auszug aus SARS-CoV-2-Infektionsschutzmaßnahmenverordnung vom 27.03.2021:
-
-"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, die ... **[*tagesaktuell*] negativ getestet** wurden."
