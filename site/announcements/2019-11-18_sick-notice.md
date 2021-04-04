@@ -5,9 +5,7 @@ show: true
 ---
 Auszug aus SARS-CoV-2-Infektionsschutzmaßnahmenverordnung vom 27.03.2021:</br >
 
-"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, 
-
-</br >die ... **[*tagesaktuell*] negativ getestet** wurden."</br ></br >
+"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, </br >die ... **[*tagesaktuell*] negativ getestet** wurden."</br ></br >
 
 Liebe Kunden,
 
