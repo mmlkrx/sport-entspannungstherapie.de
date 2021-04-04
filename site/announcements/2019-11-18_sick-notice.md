@@ -26,23 +26,6 @@ Folgende Regeln müssen beachtet werden:
 
 </br >
 
-<!--
-Der Heilpraktiker Thomas ist weiterhin erreichbar unter:</br > Tel. Nr.: 01521 1358162. 
+Auszug aus SARS-CoV-2-Infektionsschutzmaßnahmenverordnung vom 27.03.2021:
 
-
-bei einem Besuch der Sport- und Entspannungstherapie sind folgende Regeln zu beachten:
-
-\- Hände waschen nach dem Betreten der Praxis
-
-\- während der Behandlung ist ein Mund-, Nasenschutz zu tragen
-
-\- Kontaktdaten müssen erfasst werden
-
-\- die Massage wird mit Handschuhen durchgeführt
-
-\- euer eigenes Handtuch mitzubringen wäre von Vorteil
-
-Es grüßt Sie Ihre Caro
-
-\\\\\\\\\\*\\\\\\\\\\*\==>\\\\\\\\\\*\\\\\\\\\\* Zur Zeit ist im Studio nur \\\\\\\\\\*\\\\\\\\\\*Barzahlung\\\\\\\\\\*\\\\\\\\\\* möglich! \\\\\\\\\\*\\\\\\\\\\*<==\\\\\\\\\\*\\\\\\\\\\*
--->
+"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, die ... **\[tagesaktuell] negativ getestet** wurden."
