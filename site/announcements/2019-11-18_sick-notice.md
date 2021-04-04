@@ -28,4 +28,4 @@ Folgende Regeln müssen beachtet werden:
 
 Auszug aus SARS-CoV-2-Infektionsschutzmaßnahmenverordnung vom 27.03.2021:
 
-"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, die ... **\[tagesaktuell] negativ getestet** wurden."
+"...Die Dienstleistungen dürfen nur von Personen in Anspruch genommen werden, die ... **[*tagesaktuell*] negativ getestet** wurden."
