@@ -16,7 +16,7 @@ Bitte nutzen Sie den Button "Termin buchen" um sich für eine Behandlung einzutr
 
 Folgende Regeln müssen beachtet werden:
 
-\- wenn möglich, tagesaktuellen Schnelltest
+\- erforderlich ist ein tagesaktueller offizieller Schnelltest
 
 \- Hände waschen nach dem Betreten der Praxis
 
