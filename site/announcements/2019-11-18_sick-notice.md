@@ -6,7 +6,7 @@ show: true
 Liebe Kunden,
 
 Wir hoffe, dass die Schließzeiten nun hinter uns liegen.
-Wir werden unter den gegebenen Maßnahme 
+Wir werden unter den gegebenen Maßnahmen 
 (3 G-Regel: getestet - genesen - geimpft) uneingeschränkt wieder öffnen.</br ></br >
 
 **Jetzt neu:**
