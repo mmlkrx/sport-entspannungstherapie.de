@@ -1,13 +1,17 @@
 ---
-name: Aktuelle Information
+name: Aktuelles Angebot
 tags: announcement
 show: true
 ---
-Liebe Kunden,
+**Unser Frühjahrsangebot**
 
-Wir hoffe, dass die Schließzeiten nun hinter uns liegen.
-Wir werden unter den gegebenen Maßnahmen 
-(3 G-Regel: getestet - genesen - geimpft) uneingeschränkt wieder öffnen.</br ></br >
+Starten Sie entspannt in den Frühling.
+Wir bieten Ihnen:
+
+Pediküre und Fußrefexzonen-Massage (30 Min.)
+</br >für nur 50€
+
+**\*\*\*\*\*\* \*\*\*\*\*\* \*\*\*\*\*\*** 
 
 **Jetzt neu:**
 Ab sofort bieten wir zusätzlich: </br >
