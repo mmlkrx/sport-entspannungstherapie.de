@@ -1,7 +1,7 @@
 ---
 name: Hot Stone Massage
 tags: service
-show: true
+show: false
 imageUrl: /images/massage_hot_stone.jpg
 shortDescription: Die Hot Stone Massage (heiße Steine) ist eine Massage, die
   geistige Klarheit, Frische und vorallem ein völlig neues Körpergefühl
