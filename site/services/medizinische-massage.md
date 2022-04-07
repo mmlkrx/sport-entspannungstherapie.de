@@ -1,5 +1,5 @@
 ---
-name: Medizinische Massage
+name: Massage
 tags: service
 show: true
 imageUrl: /images/massage_medical.jpg
