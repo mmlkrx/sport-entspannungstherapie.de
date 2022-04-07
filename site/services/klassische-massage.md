@@ -1,5 +1,5 @@
 ---
-name: Klassische Massage
+name: Kosmetik und Pediküre
 tags: service
 show: true
 imageUrl: /images/massage_classic.jpg
