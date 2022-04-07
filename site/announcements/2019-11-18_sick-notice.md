@@ -19,7 +19,7 @@ Ab sofort bieten wir zusätzlich: </br >
 
 Eure Caro
 
-</br >In der Praxis gilt die 3G-Regel!</br ></br >
+</br >**In der Praxis gilt die 3G-Regel!**</br ></br >
 
 **Telefon: 030 - 490 87 205</br >**
 
