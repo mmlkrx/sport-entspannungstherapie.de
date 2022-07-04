@@ -3,19 +3,19 @@ name: Aktuelles Angebot
 tags: announcement
 show: true
 ---
-**Unser Frühjahrsangebot**
+### **Sommeraktion**
 
-Starten Sie entspannt in den Frühling.
-Wir bieten Ihnen:
+5% auf eine med. Massage 45 Min.
 
-Pediküre und Fußrefexzonen-Massage (30 Min.)
-</br >für nur 50€
+
 
 **\*\*\*\*\*\* \*\*\*\*\*\* \*\*\*\*\*\*** 
 
-**Jetzt neu:**
-Ab sofort bieten wir zusätzlich: </br >
-**Fußpflege und klassische Kosmetik** an. Vorerst nur telefonisch buchbar.</br >
+#### **Jetzt neu:**
+
+Umweltpauschale von 5€</br >
+beim Mitbringen eigener Handtücher</br >
+(1 großes und ein normales Handtuch!!) </br ></br >
 
 Eure Caro
 
