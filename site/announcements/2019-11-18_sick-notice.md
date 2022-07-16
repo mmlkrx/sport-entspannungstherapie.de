@@ -7,14 +7,11 @@ show: true
 
 5% auf eine med. Massage 45 Min.
 
-
-
 **\*\*\*\*\*\* \*\*\*\*\*\* \*\*\*\*\*\*** 
 
 #### **Jetzt neu:**
 
-Umweltpauschale von 5€</br >
-beim Mitbringen eigener Handtücher</br >
+5€ Rabatt beim</br >  Mitbringen eigener Handtücher</br >
 (1 großes und ein normales Handtuch!!) </br ></br >
 
 Eure Caro
