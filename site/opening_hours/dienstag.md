@@ -2,9 +2,9 @@
 {
 "tags": "week_day",
   "date": "2015-01-01",
-  "open": false,
-  "day_name": "Dienstag",
+  "open": true,
+  "day_name": "Mittwoch",
   "open_from": "16:00",
-  "open_until": "20:00"
+  "open_until": "21:00"
 }
 ---
