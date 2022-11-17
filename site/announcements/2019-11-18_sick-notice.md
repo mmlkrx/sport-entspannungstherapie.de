@@ -3,7 +3,7 @@ name: Aktuelles Angebot
 tags: announcement
 show: true
 ---
-#### Umweltpauschale
+### Umweltpauschale:
 
 5€ Rabatt beim</br >  Mitbringen eigener Handtücher</br >
 (1 großes und 1 normales Handtuch!) </br ></br >
